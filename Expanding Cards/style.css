@@ -29,7 +29,7 @@ body{
   -webkit-transition: all 700ms ease-in;
 }
 .panel h3{
-  font-size: 24px;
+  /* font-size: 24p; */
   position: absolute;
   bottom: 20px;
   left:20px;
