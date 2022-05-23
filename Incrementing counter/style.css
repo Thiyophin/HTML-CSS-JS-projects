@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #060009;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+.counter-container{
+  display: flex;
+  display: table-column;
+  text-align: center;
+  justify-content: center;
+  margin: 30px 50px;
+  font-size: 50px;
+}
+.counter{
+  margin-top: 10px;
+}
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}
